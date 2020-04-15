@@ -53,7 +53,12 @@ if (cardsInPlay.length=== 2) {
     console.log(cards[cardId].cardImage)
 console.log("User Flipped" + " "+ cards[cardId].rank)
 };
+// add reset button
 
+function resetBoard () {
+window.localStorage.clear();
+window.location.reload(false); 
+};
 
 // // displaying win or lose
 // function checkForMatch() {

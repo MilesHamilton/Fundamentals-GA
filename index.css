@@ -31,6 +31,8 @@
     font-weight: 400;
     font-size: 45px;
     margin: 0;
+
+
     }
 
     h2 {
@@ -43,9 +45,9 @@
     }
     
     p {
-    font-family: "Droid Serif", serif;
-    line-height: 26px;
-    font-size: 18px;
+        font-family: "Droid Serif", serif;
+        line-height: 26px;
+        font-size: 18px;
     }
 
     body {
@@ -100,5 +102,12 @@
 
     a:hover {
         border-color: white;
+
+    }
+    
+    .reset {
+        position: absolute;
+        left: 0;
+        top: 0;
 
     }
